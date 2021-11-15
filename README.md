@@ -1,2 +1,3 @@
-# javascript-projects
-JavaScript projects for practice and fun
+# JavaScript Projects
+
+JavaScript projects for fun and practice. 
