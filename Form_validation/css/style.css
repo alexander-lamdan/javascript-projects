@@ -1,0 +1,27 @@
+:root{
+  --btn-bottom-border:0.5em;
+  --bg-color:HSL(208, 62%, 44%);
+}
+body,html{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+body{
+  min-width:100%;
+  background-color:var(--bg-color);
+}
+.heading{
+  font-size:3rem;
+  max-width:100%;
+  text-align:center;
+}
+.describe-text{
+  font-size:1.4rem;
+  max-width:100%;
+  text-align:center;
+}
+.validation-form{
+  max-width:100%;
+}
