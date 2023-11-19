@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation</title>
+  <link href='public/css/style.css' rel='stylesheet'>
+</head>
+<body>
+  <h1 class='title'>Form validation</h1>
+  <h2 class='title'>To-do</h2>
+  <ul class='to-do-list'>
+    <li class='to-do-list__item'>check username validation and cleaning from not necessary characters - work</li>
+    <li class='to-do-list__item'>check full email validation - work</li>
+    <li class='to-do-list__item'>check full phone validation for russian +7 and 8 code - work</li>
+    <li class='to-do-list__item'>check full password for minimum 8 characters including aZ,0-9 and special characters - work</li>
+    <li class='to-do-list__item'>show errors when validation is failed - work</li>
+  </ul>
+  <form class='form-validation'>
+    <label for='username' class='form-validation__label'>Username:</label>
+    <br>
+    <input type='text' name='username' id='username' placeholder='Enter username' class='form-validation__input'>
+    <br>
+    <p class='username-error'></p>
+    <br>
+    <label for='email' class='form-validation__label'>Email:</label>
+    <br>
+    <input type='email' id='email' name='email' placeholder='Enter email' class='form-validation__input'>
+    <br>
+    <p class='email-error'></p>
+    <br>
+    <label for='phone' class='form-validation__label'>Phone:</label>
+    <br>
+    <input type='phone' id='phone' name='phone' placeholder='Enter phone' class='form-validation__input'>
+    <br>
+    <p class='phone-error'></p>
+    <br>
+    <label for='password' class='form-validation__label'>Password:</label>
+    <br>
+    <input type='password' name='password' id='password' placeholer='Enter password' class='form-validation__input'>
+    <br>
+    <p class='password-error'></p>
+    <br>
+    <input type='submit' id='submit' value='submit' class='form-validation__button'>
+  </form>
+</body>
+<script src='public/java_script/main.js'></script>
+</html>

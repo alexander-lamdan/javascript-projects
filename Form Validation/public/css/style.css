@@ -1,0 +1,83 @@
+html,body{
+  margin:0;
+  box-sizing:border-box;
+  padding:0;
+  font-family:Arial;
+}
+body{
+  width:100%;
+  background-color:#264653;
+  color:white;
+}
+.title{
+  width:100%;
+  text-align:center;
+}
+.to-do-list{
+  list-style-type:none;
+  width:100%;
+}
+.to-do-list .to-do-list__item{
+  font-size:1.5rem;
+  text-align:center;
+}
+.form-validation{
+  width:30vw;
+  height:auto;
+  background-color:white;
+  border-radius:0.3em;
+  margin:0 auto;
+}
+.form-validation .form-validation__label{
+  color:black;
+  font-size:1.3rem;
+  font-weight:bold;
+  padding:0.2em;
+  width:100%;
+  display:block;
+  text-align:center;
+}
+.form-validation .form-validation__input{
+  border:none;
+  color:black;
+  font-weight:bold;
+  border-bottom:0.1em solid black;
+  display:block;
+  width:29.78vw;
+  text-align:center;
+}
+.form-validation .form-validation__input:focus{
+  outline:none;
+  border-bottom:0.1em solid green;
+}
+.form-validation .form-validation__button{
+  border:none;
+  box-shadow:none;
+  border-radius:0.3em;
+  background-color:#ff006e;
+  color:white;
+  display:block;
+  height:4vh;
+  width:8vw;
+  margin:0 auto;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:1.2rem;
+  text-transform:uppercase;
+}
+.form-validation .form-validation__button:hover{
+  background-color:#8338ec;
+}
+.form-validation .username-error, .form-validation .email-error, .form-validation .phone-error, .form-validation .password-error{
+  max-width:100%;
+  background-color:red;
+  height:auto;
+  color:white;
+  font-weight:bold;
+  font-size:1rem;
+  display:none;
+  text-align:center;
+  line-height:2;
+  margin:0 auto;
+  word-wrap: break-word;
+}
