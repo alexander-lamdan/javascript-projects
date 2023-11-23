@@ -13,6 +13,10 @@ body{
   width:100%;
   text-align:center;
 }
+.to-do{
+  width:100%;
+  text-align:center;
+}
 .to-do-list{
   list-style-type:none;
   width:100%;
@@ -30,10 +34,14 @@ body{
 .container .time{
   font-size:3rem;
   font-weight:bold;
+  background-color:white;
+  color:black;
+  border-radius:0.1em;
+  text-align:center;
+  margin-left:0.1em;
 }
-.container .box__hour::after{
-  content:":";
-}
-.container .box__minute::after{
-  content:":";
+.container .delimiter{
+  font-size:3rem;
+  color:white;
+  font-weight:bold;
 }
