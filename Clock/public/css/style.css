@@ -45,3 +45,9 @@ body{
   color:white;
   font-weight:bold;
 }
+.container .time-format{
+  font-size:1rem;
+  font-weight:bold;
+  color:white;
+  text-transform:uppercase;
+}
