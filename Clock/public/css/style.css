@@ -51,3 +51,43 @@ body{
   color:white;
   text-transform:uppercase;
 }
+.buttons-block{
+  width:100%;
+}
+.generateBtn{
+  margin:0 auto;
+  border:none;
+  background:red;
+  border-radius:0.3em;
+  display:block;
+  width:9vw;
+  height:5vh;
+  color:white;
+  font-size:1rem;
+  font-weight:bold;
+}
+.changeFormatBtn{
+  margin:0 auto;
+  border:none;
+  background:red;
+  border-radius:0.3em;
+  display:block;
+  width:9vw;
+  height:5vh;
+  color:white;
+  font-size:0.8rem;
+  font-weight:bold;
+  margin-top:1em;
+}
+.generateBtn:hover{
+  
+  cursor:pointer;
+  background:palevioletred;
+  
+}
+.changeFormatBtn:hover{
+  
+  cursor:pointer;
+  background:green;
+  
+}

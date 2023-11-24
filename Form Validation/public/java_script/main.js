@@ -1,13 +1,13 @@
-let formValidation = {
+// let formValidation = {
   
-  username,
-  email,
-  phone,
-  password,
-  form
+//   username,
+//   email,
+//   phone,
+//   password,
+//   form
   
-};
-console.log(formValidation);
+// };
+// console.log(formValidation);
 function checkErrorsBlock(){
   
   let errors = document.querySelectorAll('.username-error, .email-error, .phone-error, .password-error');

@@ -24,3 +24,60 @@ body{
 .todo-list .todo-list__item{
   font-size:1.5rem;
   text-align:center;
+}
+.container{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+}
+.container .time{
+  font-size:3rem;
+  font-weight:bold;
+  background-color:white;
+  color:black;
+  border-radius:0.1em;
+  text-align:center;
+  margin-left:0.1em;
+}
+.container .delimiter{
+  font-size:3rem;
+  color:white;
+  font-weight:bold;
+}
+.container .time-format{
+  font-size:1rem;
+  font-weight:bold;
+  color:white;
+  text-transform:uppercase;
+}
+.results{
+  width:100%;
+  list-style-type:none;
+}
+.results .results__item{
+  font-size:1.3rem;
+  font-weight:bold;
+  text-align:center;
+}
+.buttons-block{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.buttons-block button{
+  border:none;
+  background:red;
+  border-radius:0.3em;
+  display:block;
+  width:9vw;
+  height:5vh;
+  color:white;
+  font-size:0.8rem;
+  font-weight:bold;
+  margin-left:0.3em;
+}
+.buttons-block button:hover{
+  background-color:green;
+  cursor:pointer;
+}
